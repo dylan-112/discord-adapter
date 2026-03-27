@@ -1,11 +1,11 @@
-# @openacp/plugin-discord
+# @openacp/adapter-discord
 
 Discord adapter plugin for [OpenACP](https://github.com/Open-ACP/OpenACP). Creates forum threads for each AI session, supports slash commands, streaming messages, and permission requests.
 
 ## Installation
 
 ```bash
-openacp plugin add @openacp/plugin-discord
+openacp plugin add @openacp/adapter-discord
 ```
 
 ## Development
@@ -23,7 +23,7 @@ openacp dev .
 
 ## Configuration
 
-After installing the plugin, run `openacp plugin configure @openacp/plugin-discord` to set up:
+After installing the plugin, run `openacp plugin configure @openacp/adapter-discord` to set up:
 
 - Discord bot token
 - Guild ID

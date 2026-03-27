@@ -5,7 +5,7 @@ function createDiscordPlugin(): OpenACPPlugin {
   let adapter: { stop(): Promise<void> } | null = null
 
   return {
-    name: '@openacp/plugin-discord',
+    name: '@openacp/adapter-discord',
     version: '1.0.0',
     description: 'Discord adapter with forum threads',
     essential: false,

@@ -1,5 +1,5 @@
 {
-  "name": "@openacp/plugin-discord",
+  "name": "@openacp/adapter-discord",
   "version": "0.1.0",
   "description": "Discord adapter plugin for OpenACP — forum threads, slash commands, streaming messages",
   "type": "module",
