@@ -11,11 +11,11 @@ openacp plugin add @openacp/adapter-discord
 ## Development
 
 ```bash
-git clone https://github.com/Open-ACP/discord-plugin.git
-cd discord-plugin
-npm install
-npm run build
-npm test
+git clone https://github.com/Open-ACP/discord-adapter.git
+cd discord-adapter
+pnpm install
+pnpm build
+pnpm test
 
 # Hot-reload development
 openacp dev .
