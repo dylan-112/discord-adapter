@@ -25,8 +25,7 @@
     "nanoid": "^5.1.7"
   },
   "devDependencies": {
-    "@openacp/cli": "file:../OpenACP",
-    "@openacp/plugin-sdk": "file:../OpenACP/packages/plugin-sdk",
+    "@openacp/plugin-sdk": ">=1.0.0",
     "typescript": "^5.4.0",
     "vitest": "^3.0.0"
   },
